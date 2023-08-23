@@ -1,0 +1,8 @@
+const names = require("./4-names")
+const sayHi = require("./5-utilis")
+const data = require("./6-arraystest")
+require("./7.sumthem")
+sayHi("susan")
+sayHi(names.john)
+sayHi(names.mike)
+console.log(data)
